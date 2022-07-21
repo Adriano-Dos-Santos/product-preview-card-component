@@ -15,16 +15,17 @@
     </head>
     <body>
         <div class="card">
-        <div class="img-container">
-          <picture>
+            <picture class="img-container">
+                <source media="(max-width: 660px)" srcset="images/image-product-mobile.jpg 686w" type="image/jpeg">
+                <source media="(min-width: 661px)" srcset="images/image-product-desktop.jpg 600w" type="image/jpeg">
                   <img srcset="images/image-product-mobile.jpg 686w,
                                images/image-product-desktop.jpg 600w"
                        sizes="(max-width: 660px) 686px,
-                               600px"
+                              (min-width: 661px) 600px"
                        src="images/image-product-mobile.jpg"
                        alt="a chanel perfume">
-          </picture>
-        </div>
+
+            </picture>
         <div class="main-container">
         <h1>perfume</h1>
         <h2>Gabrielle Essence Eau De Parfum</h2>
