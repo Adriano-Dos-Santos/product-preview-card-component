@@ -37,7 +37,7 @@ This is a very basic project a card component to apply basics of HTML and respon
 
    <a href="https://github.com/Adriano-Dos-Santos/product-preview-card-component">
     <img src="images/Screenshots/desktop.png" alt="desktop" width="800" height="auto">
-    <img src="images/Screenshots/mobile.png" alt="desktop" width="800" height="auto">
+    <img src="images/Screenshots/mobile.png" alt="desktop" width="400" height="auto">
    </a>
 
 
