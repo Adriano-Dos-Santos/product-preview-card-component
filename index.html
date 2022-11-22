@@ -1,43 +1,59 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Perfume Card</title>
-        <meta name="description" content="A perfume product card">
-        <link rel="icon" type="image/png" href="images/favicon-32x32.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css" type="text/css">
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    </head>
-    <body>
-        <div class="card">
-            <picture class="img-container">
-                <source media="(max-width: 660px)" srcset="images/image-product-mobile.jpg" type="image/jpeg">
-                <source media="(min-width: 661px)" srcset="images/image-product-desktop.jpg" type="image/jpeg">
-                  <img srcset="images/image-product-mobile.jpg 686w,
-                               images/image-product-desktop.jpg 600w"
-                       sizes="(max-width: 660px) 686px,
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Perfume Card</title>
+    <meta name="description" content="A perfume product card" />
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  </head>
+  <!-- test -->
+  <body>
+    <div class="card">
+      <picture class="img-container">
+        <source
+          media="(max-width: 660px)"
+          srcset="images/image-product-mobile.jpg"
+          type="image/jpeg"
+        />
+        <source
+          media="(min-width: 661px)"
+          srcset="images/image-product-desktop.jpg"
+          type="image/jpeg"
+        />
+        <img
+          srcset="
+            images/image-product-mobile.jpg  686w,
+            images/image-product-desktop.jpg 600w
+          "
+          sizes="(max-width: 660px) 686px,
                               (min-width: 661px) 600px"
-                       src="images/image-product-mobile.jpg"
-                       alt="a chanel perfume">
-
-            </picture>
-        <div class="main-container">
+          src="images/image-product-mobile.jpg"
+          alt="a chanel perfume"
+        />
+      </picture>
+      <div class="main-container">
         <h1>perfume</h1>
         <h2>Gabrielle Essence Eau De Parfum</h2>
-        <p class="text">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+        <p class="text">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
         <div class="value-container">
-        <p class="new-value">$149.99</p>
-        <p class="old-value">$169.99</p>
+          <p class="new-value">$149.99</p>
+          <p class="old-value">$169.99</p>
         </div>
-        <button class="button" type="button">
-            Add to Cart
-        </button>
-        </div>
-        </div>
-    </body>
+        <button class="button" type="button">Add to Cart</button>
+      </div>
+    </div>
+  </body>
 </html>
